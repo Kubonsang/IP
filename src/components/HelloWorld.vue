@@ -5,6 +5,7 @@
     <Info></Info>
     <Contact></Contact>
     <Education></Education>
+    <Project></Project>
   </div>
 </template>
 
@@ -18,8 +19,9 @@ import Info from './Info.vue'
 // 연락처 컴포넌트
 import Contact from './Contact.vue'
 // 교육 컴포넌트
-import Education from "./Education.vue";
-
+import Education from "./Education.vue"
+// 프로젝트 컴포넌트
+import Project from "./Project.vue"
 export default {
   name: 'App',
   components: {
@@ -28,6 +30,7 @@ export default {
     AboutMe,
     Contact,
     Education,
+    Project,
   }
 }
 </script>
